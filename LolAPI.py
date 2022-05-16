@@ -1,7 +1,8 @@
 from urllib import response
 from requests import get
 
-LOL_KEY = "?api_key=RGAPI-ccb73e02-e79a-4064-aabf-a2496c779776"
+KEY = "RGAPI-ccb73e02-e79a-4064-aabf-a2496c779776"
+LOL_KEY = "?api_key=" + KEY
 LOL_URL = "https://br1.api.riotgames.com"
 LOL_NAME = input("Digite o nome de Invocador: ")
 
