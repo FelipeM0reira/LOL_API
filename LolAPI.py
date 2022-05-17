@@ -1,7 +1,7 @@
 from urllib import response
 from requests import get
 
-KEY = "RGAPI-ccb73e02-e79a-4064-aabf-a2496c779776"
+KEY = "RGAPI-a0b4f9c2-ce38-4a19-9471-e6727dce4197"
 LOL_KEY = "?api_key=" + KEY
 LOL_URL = "https://br1.api.riotgames.com"
 LOL_NAME = input("Digite o nome de Invocador: ")
@@ -20,4 +20,6 @@ def ranked():
     return response
 
 
-print(ranked())
+for rank in ranked():
+    rankSolo = rank["tier"]
+    print(rank)
