@@ -1,6 +1,6 @@
 from requests import get
 
-KEY = "RGAPI-a0b4f9c2-ce38-4a19-9471-e6727dce4197"
+KEY = "RGAPI-35da394b-0416-483f-8213-2c548945d5f5"
 LOL_KEY = "?api_key=" + KEY
 LOL_URL = "https://br1.api.riotgames.com"
 LOL_NAME = input("Digite o nome de Invocador: ")
@@ -19,15 +19,25 @@ def ranked():
     return response
 
 
-for rank in ranked():
-    elo = rank["tier"]
-    rankeada = rank["queueType"]
-    tier = rank["rank"]
-    pontos = rank["leaguePoints"]
-    vit = rank["wins"]
-    derrotas = rank["losses"]
+for lolRank in ranked():
+    elo = lolRank['tier']
+    rankeada = lolRank['queueType']
+    tier = lolRank['rank']
+    pontos = lolRank['leaguePoints']
+    vit = lolRank['wins']
+    derrotas = lolRank['losses']
     txvit = vit*100/(vit+derrotas)
 
 
-print("Tipo de rankeada: {}, Rank: {}, Tier: {}, Pontos: {}, Vitorias: {}, Derrotas: {}, Porgentagem de vitoria: {}%.".format(
+for lol in ranked():
+    elo = lol['tier']
+    rankeada = lol['queueType']
+    tier = lol['rank']
+    pontos = lol['leaguePoints']
+    vit = lol['wins']
+    derrotas = lol['losses']
+    txvit = vit*100/(vit+derrotas)
+
+
+print("Tipo de rankeada: {}, Rank: {}, Tier: {}, Pontos: {}, \n Vitorias: {}, Derrotas: {}, Porgentagem de vitoria: {}%.".format(
     rankeada, elo, tier, pontos, vit, derrotas, txvit))
