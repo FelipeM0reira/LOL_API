@@ -19,16 +19,6 @@ def ranked():
     return response
 
 
-for lolRank in ranked():
-    elo = lolRank['tier']
-    rankeada = lolRank['queueType']
-    tier = lolRank['rank']
-    pontos = lolRank['leaguePoints']
-    vit = lolRank['wins']
-    derrotas = lolRank['losses']
-    txvit = vit*100/(vit+derrotas)
-
-
 for lol in ranked():
     elo = lol['tier']
     rankeada = lol['queueType']
@@ -39,5 +29,5 @@ for lol in ranked():
     txvit = vit*100/(vit+derrotas)
 
 
-print("Tipo de rankeada: {}, Rank: {}, Tier: {}, Pontos: {}, \n Vitorias: {}, Derrotas: {}, Porgentagem de vitoria: {}%.".format(
+print("Tipo de rankeada: {}, Rank: {}, Tier: {}, Pontos: {}, \n Vitorias: {}, Derrotas: {}, Porgentagem de vitoria: {:.2f}%.".format(
     rankeada, elo, tier, pontos, vit, derrotas, txvit))
