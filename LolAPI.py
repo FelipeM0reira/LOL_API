@@ -1,6 +1,6 @@
 from requests import get
 
-KEY = "RGAPI-35da394b-0416-483f-8213-2c548945d5f5"
+KEY = input("Digite a sua chave da Riot games: ")
 LOL_KEY = "?api_key=" + KEY
 LOL_URL = "https://br1.api.riotgames.com"
 LOL_NAME = input("Digite o nome de Invocador: ")
