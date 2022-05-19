@@ -3,10 +3,10 @@ Coletar e exibir dados das partidas rankeadas da sua conta de league of legends 
 
 Especificações do projeto:
 
-Python version: 3.10.4
-Sistema operacional: Windows 10
-Bibliotecas adicionadas: requests
-Chave de desenvolvedor(key) do league of legends: Se você ainda não tem uma chave, é bem simples e rapido para solicitar e ter acesso a uma. Bastar entrar no site da Riot games de desenvolvimento (https://developer.riotgames.com/docs/portal#_getting-started) logar na sua conta da Riot e solicitar uma, vale ressoaltar que dependendo do tipo de chave ela é valida por 24hrs depois você tem que renovar a chave.
+- Python version: 3.10.4.
+- Sistema operacional: Windows 10.
+- Bibliotecas adicionadas: requests.
+- Chave de desenvolvedor(key) do league of legends: Se você ainda não tem uma chave, é bem simples e rapido para solicitar e ter acesso a uma. Bastar entrar no site da Riot games de desenvolvimento (https://developer.riotgames.com/docs/portal#_getting-started) logar na sua conta da Riot e solicitar uma, vale ressoaltar que dependendo do tipo de chave ela é valida por 24hrs depois você tem que renovar a chave.
 
 Projeto:
 
