@@ -1,5 +1,5 @@
 # LOL_API
-Coletar e exibir dados das partidas rankeadas da sua conta de league of legends com API.
+Coletar e exibir dados das partidas rankeadas da conta de league of legends com API.
 
 Especificações do projeto:
 
