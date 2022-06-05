@@ -22,3 +22,7 @@ OBS: se colocar algum dos dois invalido ou errado ocorrera um erro!
 Feito isso corretamente obtera os dados de suas partidas rankeadas jogadas recentemente:
 ![lolDadosRanked](https://user-images.githubusercontent.com/104744113/169411685-580e2472-e39f-45cf-b2b8-31c8d671ab13.PNG)
 OBS: Note que no meu caso ele mostrou apenas da flex, devido eu nao ter pardidas na Solo duo, ou se fizer alguns dias nao jogado. Caso jogue nas 2 filas, aparecera os dados das 2 filas rankeadas.
+
+# <h1 align="center">👨‍💻 Autor</h1>
+
+ [<img src="https://avatars.githubusercontent.com/u/104744113?v=4" width=115><br><sub>Felipe Moreira</sub>](https://github.com/FelipeM0reira) 
